@@ -14,6 +14,7 @@ nav {
 
   width: 100%;
   height: 45px;
+  z-index: 10000;
 
   display: flex;
   justify-content: space-between;
@@ -409,40 +410,48 @@ footer li {
 
 .ph1 {
   top: 155px;
+  width: 225px;
 }
 
 .ph2 {
   top: 155px;
   left: 245px;
+  width: 225px;
 }
 
 .ph3 {
   top: 155px;
   left: 485px;
+  width: 225px;
 }
 
 .ph4 {
   top: 155px;
   left: 728px;
+  width: 225px;
 }
 
 .ph5 {
   top: 565px;
+  width: 225px;
 }
 
 .ph6 {
   top: 565px;
   left: 245px;
+  width: 225px;
 }
 
 .ph7 {
   top: 565px;
   left: 485px;
+  width: 225px;
 }
 
 .ph8 {
   top: 565px;
   left: 728px;
+  width: 225px;
 }
 
 .caption {
@@ -513,3 +522,100 @@ footer li {
   height: 1084px;
   float: right;
 }
+
+
+/* ------------------------------------------------
+---------- RElated Content ------------------------
+-------------------------------------------------*/
+
+.related-content{
+  
+  width: 95%;
+  margin: 0 auto;
+}
+
+.related-content nav{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+}
+
+.related-content main{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 0 auto ;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgb(226, 226, 226);
+
+}
+
+div[rel ^="column"]{
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  line-height: 1.8;
+
+}
+
+div[rel="column6"]{
+  padding-left: 25px;
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+.related-content a{
+  color: #333;
+  font-family: nyt-franklin;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.fancy{
+  font-weight: 700;
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+
+.separator{
+  padding-top: 7px;
+  margin-top: 4px;
+  border-top: 1px solid rgb(226, 226, 226);
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.related-content-titles{
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  margin-bottom: 7px;
+  font-family: nyt-franklin;
+}
+
+.related-content-footer{
+  margin-top: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.related-content-footer a{
+  padding: 0 8px;
+  font-size: 13px;
+}
+
+.found{
+  font-size: 100px;
+  font-weight: bolder;
+  z-index: 10000000000;
+  color: red;
+}
+
+
+/* -----------------------------------
+---------- F O O T E R ---------------
+------------------------------------*/
+
