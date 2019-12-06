@@ -72,15 +72,6 @@ a {
   text-decoration: none;
 }
 
-footer a {
-  color: rgb(153, 153, 153);
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  white-space: nowrap;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 11px;
-}
-
 .article-bottom-info p a {
   color: #999;
 }
