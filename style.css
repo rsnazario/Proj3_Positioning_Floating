@@ -7,7 +7,6 @@
 nav {
   position: fixed;
   background-color: white;
-  border-bottom: 3px solid #000;
 
   text-transform: uppercase;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
