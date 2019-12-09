@@ -7,14 +7,14 @@
 nav {
   position: fixed;
   background-color: white;
-  border-bottom: solid 1px solid rgba(212, 200, 200, 0.85);
+  border-bottom: 3px solid #000;
 
   text-transform: uppercase;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
 
   width: 100%;
   height: 45px;
-  z-index: 10000;
+  z-index: 10;
 
   display: flex;
   justify-content: space-between;
@@ -217,16 +217,6 @@ a {
   line-height: 1.4375rem;
 }
 
-.blog-logo a {
-  color: rgb(98, 136, 165);
-  font-family: nyt-franklin, sans-serif;
-  font-size: 11px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 11px;
-  text-decoration: none;
-}
-
 .article-bottom-info p a {
   color: #999;
 }
@@ -387,6 +377,11 @@ figure {
   font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
   font-weight: 500;
   padding: 4px 0;
+}
+
+.thumbnails h2 a {
+  color: black;
+  text-decoration: none;
 }
 
 .aside-bar .signup h2 {
@@ -695,20 +690,8 @@ hr {
   bottom: 0;
 }
 
-.blog-links .section-title {
-  font-size: 13px;
-  font-weight: 700;
-  font-family: nyt-franklin, helvetica, arial, sans-serif;
-  color: #333;
-  height: 25px;
-}
-
-.blog-links .blog-link-column a:hover {
-  text-decoration: underline;
-}
-
-.blog-links .last {
-  border-left: 1px solid rgb(226, 226, 226);
+.section-title a {
+  color: black;
 }
 
 #bold1,
@@ -739,13 +722,14 @@ hr {
 
 .related-content {
   width: 95%;
-  margin: 0 auto;
 }
 
-.related-content nav {
+.related-content-top {
+  clear: both;
   display: flex;
+  height: 50px;
+  width: 1280px;
   justify-content: space-between;
-  width: 100%;
 }
 
 .related-content main {
@@ -760,7 +744,7 @@ hr {
 div[rel^="column"] {
   display: flex;
   flex-direction: column;
-  width: 200px;
+  width: 210px;
   line-height: 1.8;
 }
 
@@ -770,22 +754,10 @@ div[rel="column6"] {
 }
 
 .related-content a {
-  color: #333;
+  color: black;
   font-family: nyt-franklin;
   text-decoration: none;
-  font-size: 17px;
-}
-
-.fancy {
-  font-weight: 700;
-  font-size: 20px;
-  padding-bottom: 5px;
-}
-
-.separator {
-  padding-top: 7px;
-  margin-top: 4px;
-  border-top: 1px solid rgb(226, 226, 226);
+  font-size: 15px;
 }
 
 a:hover {
@@ -793,7 +765,7 @@ a:hover {
 }
 
 .related-content-titles {
-  font-weight: 600;
+  font-weight: 590;
   letter-spacing: 0.2px;
   margin-bottom: 7px;
   font-family: nyt-franklin;
