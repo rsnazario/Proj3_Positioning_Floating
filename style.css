@@ -712,3 +712,23 @@ a:hover {
   padding: 0 8px;
   font-size: 13px;
 }
+
+/* ------------------------------------------------
+---------- FOOTER          ------------------------
+------------------------------------------------ */
+
+footer{
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  padding: 20px 0;
+  border-top: 1px solid;
+  background-color: white;
+}
+
+footer h4{
+  font-weight: 400;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+}
