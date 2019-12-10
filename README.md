@@ -14,8 +14,8 @@ Read more about the project detailed description from the [Odin website](https:/
 
 # Languages Used
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 
 # Contributing
 
