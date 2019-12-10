@@ -209,7 +209,7 @@ a {
 
 .blog-aside a {
   color: rgb(18, 18, 18);
-  font-family: nyt-cheltenham, georgia, "times new roman" serif, times, serif;
+  font-family: "nyt-cheltenham", georgia, "times new roman" serif, times, serif;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.1875rem;
@@ -461,7 +461,7 @@ figure {
 .aside-bar .editor-picks article a h3 {
   float: right;
   width: 125px;
-  font-family: nyt-cheltenham-small, georgia, "times new roman", times, serif;
+  font-family: "nyt-cheltenham-small", georgia, "times new roman", times, serif;
   font-size: 14px;
   line-height: 17px;
   color: rgb(51, 51, 51);
@@ -721,6 +721,7 @@ hr {
 
 .related-content {
   width: 95%;
+  margin-left: 350px;
 }
 
 .related-content-top {
@@ -734,8 +735,7 @@ hr {
 .related-content main {
   display: flex;
   width: 100%;
-  justify-content: center;
-  margin: 0 auto;
+  justify-content: left;
   padding-bottom: 5px;
   border-bottom: 1px solid rgb(226, 226, 226);
 }
