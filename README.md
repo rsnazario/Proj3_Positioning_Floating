@@ -1,7 +1,7 @@
 # Project: New York Times Clone
 
 This is one of the Main HTML/CSS curriculum project at [Microverse](https://www.microverse.org/)
-This assignment consists of making a clone of a New [York Times article page](https://minurl.me/SPw3rb).
+This assignment consists of making a clone of a New [York Times article page](https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0).
 Read more about the project detailed description from the [Odin website](https://www.theodinproject.com/courses/html5-and-css3/lessons/positioning-and-floating-elements).
 
 ## Project requirements
