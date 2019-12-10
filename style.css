@@ -209,7 +209,7 @@ a {
 
 .blog-aside a {
   color: rgb(18, 18, 18);
-  font-family: "nyt-cheltenham", georgia, "times new roman" serif, times, serif;
+  font-family: nyt-franklin, sans-serif;
   text-decoration: none;
   font-weight: 500;
   font-size: 1.1875rem;
@@ -772,7 +772,7 @@ a:hover {
   font-family: nyt-franklin;
 }
 
-.fancy{
+.fancy {
   font-weight: bolder;
   font-size: 16px;
 }
@@ -784,7 +784,6 @@ a:hover {
   align-items: center;
   justify-content: space-around;
   border-top: 1px solid rgb(226, 226, 226);
-
 }
 
 .related-content-footer a {
