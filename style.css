@@ -361,7 +361,7 @@ figure {
 .aside-bar {
   float: right;
   width: 200px;
-  padding-top: 280px;
+  padding-top: -900px;
   text-align: left;
   font-family: "nyt-franklin", helvetica, arial, sans-serif;
 }
