@@ -731,6 +731,8 @@ hr {
   height: 50px;
   width: 1280px;
   justify-content: space-between;
+  padding-top: 10px;
+  border-top: 4px double rgb(226, 226, 226);
 }
 
 .related-content main {
@@ -738,7 +740,6 @@ hr {
   width: 100%;
   justify-content: left;
   padding-bottom: 5px;
-  border-bottom: 1px solid rgb(226, 226, 226);
 }
 
 div[rel^="column"] {
@@ -765,17 +766,25 @@ a:hover {
 }
 
 .related-content-titles {
-  font-weight: 590;
+  font-weight: 600;
   letter-spacing: 0.2px;
   margin-bottom: 7px;
   font-family: nyt-franklin;
 }
 
+.fancy{
+  font-weight: bolder;
+  font-size: 16px;
+}
+
 .related-content-footer {
+  display: flex;
+  width: 70%;
   margin-top: 10px;
   align-items: center;
-  display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  border-top: 1px solid rgb(226, 226, 226);
+
 }
 
 .related-content-footer a {
