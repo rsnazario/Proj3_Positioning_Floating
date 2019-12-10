@@ -283,7 +283,7 @@ figure {
   float: right;
   width: 200px;
   margin-top: -2000px;
-  margin-right: 300px;
+  margin-right: 100px;
   text-align: left;
   font-family: "nyt-franklin", helvetica, arial, sans-serif;
 }
@@ -642,7 +642,7 @@ hr {
 ------------------------------------------------ */
 
 .related-content {
-  width: 95%;
+  max-width: 95%;
   margin-left: 350px;
 }
 
@@ -700,11 +700,12 @@ a:hover {
 
 .related-content-footer {
   display: flex;
-  width: 70%;
+  width: 80%;
   margin-top: 10px;
   align-items: center;
   justify-content: space-around;
   border-top: 1px solid rgb(226, 226, 226);
+  margin-bottom: 50px;
 }
 
 .related-content-footer a {
