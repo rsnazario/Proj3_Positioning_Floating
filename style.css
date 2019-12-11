@@ -137,7 +137,17 @@ table {
   line-height: 1.4375rem;
 }
 
-.related-content a {
+.related-logo a {
+  color: rgb(98, 136, 165);
+  font-family: nyt-franklin, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 11px;
+  text-decoration: none;
+}
+
+/* .related-content a {
   color: black;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
   text-decoration: none;
@@ -151,11 +161,11 @@ table {
 
 .section-title a {
   color: black;
-}
+} */
 
-a:hover {
+/* a:hover {
   text-decoration: underline;
-}
+} */
 
 .thumbnails h2 a {
   color: black;
@@ -166,7 +176,7 @@ a:hover {
   color: #999;
 }
 
-.blog-links .blog-link-column a {
+.related-links .related-link-column a {
   color: rgb(0, 0, 0);
   display: inline-block;
   font-family: nyt-franklin, sans-serif;
@@ -623,6 +633,14 @@ hr {
   padding-top: 20px;
 }
 
+.related-links .related-link-column a:hover {
+  text-decoration: underline;
+}
+
+.related-links .last {
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
 .thumbnails .time {
   color: #999;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
@@ -657,7 +675,72 @@ hr {
 ---------- RElated Content ------------------------
 ------------------------------------------------ */
 
-.related-content {
+.related-logo {
+  clear: both;
+  display: flex;
+  height: 50px;
+  width: 1281px;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.related-logo svg {
+  padding-left: 37px;
+}
+
+.related-links {
+  width: 1281px;
+  height: 391px;
+  margin: 0 auto;
+  display: flex;
+  padding: 0 40px;
+}
+
+.related-link-column {
+  flex-grow: 1;
+  padding: 0 3px;
+}
+
+.related-links .sec-title {
+  font-size: 13px;
+  font-weight: 700;
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  color: #333;
+  height: 25px;
+}
+
+.related-links .related-link-column a:hover {
+  text-decoration: underline;
+}
+
+.related-links .last {
+  border-left: 1px solid rgb(226, 226, 226);
+}
+
+footer {
+  height: 75px;
+  text-align: center;
+}
+
+footer li {
+  display: inline-block;
+}
+
+hr {
+  border: 0.5px solid #333;
+  margin-top: 20px;
+}
+
+footer a {
+  color: rgb(153, 153, 153);
+  font-family: nyt-franklin, helvetica, arial, sans-serif;
+  white-space: nowrap;
+  padding: 10px 0;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+/* .related-content {
   width: 90%;
   display: inline-block;
   margin: 0 10%;
@@ -711,13 +794,13 @@ div[rel="column6"] {
   border-top: 1px solid rgb(226, 226, 226);
   margin-bottom: 80px;
   width: 80%;
-}
+} */
 
 /* ------------------------------------------------
 ---------- FOOTER          ------------------------
 ------------------------------------------------ */
 
-footer {
+/* footer-last {
   position: fixed;
   z-index: 999;
   display: flex;
@@ -729,7 +812,7 @@ footer {
   bottom: 0;
 }
 
-footer h4 {
+footer-last h4 {
   font-weight: 400;
   font-family: nyt-franklin, helvetica, arial, sans-serif;
-}
+} */
