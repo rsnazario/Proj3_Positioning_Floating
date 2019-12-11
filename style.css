@@ -658,8 +658,10 @@ hr {
 ------------------------------------------------ */
 
 .related-content {
-  max-width: 95%;
-  margin-left: 350px;
+  height: 10%;
+  max-width: 70%;
+  margin: 0 30% 0 30%;
+  display: inline-block;
 }
 
 .related-content-top {
@@ -672,9 +674,9 @@ hr {
   border-top: 4px double rgb(226, 226, 226);
 }
 
-.related-content main {
+.related-content-links {
+  width: 80%;
   display: flex;
-  width: 100%;
   justify-content: left;
   padding-bottom: 5px;
 }
