@@ -660,7 +660,7 @@ hr {
 .related-content {
   width: 90%;
   display: inline-block;
-  margin: 0 8%;
+  margin: 0 10%;
 }
 
 .related-content-top {
@@ -710,7 +710,7 @@ div[rel="column6"] {
   justify-content: space-around;
   border-top: 1px solid rgb(226, 226, 226);
   margin-bottom: 80px;
-  width: 100%;
+  width: 80%;
 }
 
 /* ------------------------------------------------
