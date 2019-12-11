@@ -658,10 +658,9 @@ hr {
 ------------------------------------------------ */
 
 .related-content {
-  height: 10%;
-  max-width: 70%;
-  margin: 0 30% 0 30%;
+  width: 70%;
   display: inline-block;
+  margin: 0 15%;
 }
 
 .related-content-top {
@@ -675,7 +674,7 @@ hr {
 }
 
 .related-content-links {
-  width: 80%;
+
   display: flex;
   justify-content: left;
   padding-bottom: 5px;
@@ -707,7 +706,6 @@ div[rel="column6"] {
 
 .related-content-footer {
   display: flex;
-  width: 80%;
   margin-top: 10px;
   align-items: center;
   justify-content: space-around;
