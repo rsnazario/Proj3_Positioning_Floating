@@ -682,6 +682,7 @@ hr {
   width: 1281px;
   justify-content: space-between;
   padding: 0 40px;
+  margin: auto;
 }
 
 .related-logo svg {
@@ -718,8 +719,12 @@ hr {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   height: 75px;
   text-align: center;
+  background-color: white;
 }
 
 footer li {
@@ -737,7 +742,7 @@ footer a {
   white-space: nowrap;
   padding: 10px 0;
   text-decoration: none;
-  font-size: 11px;
+  font-size: 15px;
 }
 
 /* .related-content {
